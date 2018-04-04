@@ -1,0 +1,9 @@
+**/bin/*
+**/obj/*
+**/*.dll
+**/.vs
+**/.DS_Store
+
+
+/SampleFunction.AzureRedis.AsCollector/Properties/PublishProfiles
+/SampleFunction.AzureRedis.AsDatabase/Properties/PublishProfiles/azfwebjobsextntest - Web Deploy.pubxml
