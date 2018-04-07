@@ -13,9 +13,7 @@ The code contains two sample Azure Functions projects which demonstrate the use 
 Clone the project on your machine locally and use Visual Studio to build and run the sample projects.
 
 ### Visual Studio Tooling Issue and Workaround
-At the time of writing this code (April 2018), I encountered an issue with Azure Web Jobs Tools in Visual Studio.  If you are using - Visual Studio 2017 15.6.2 and Azure Functions and Web Jobs Tools 15.0.40322.0, you may encounter it as well. 
-
-But thanks to help from my colleagues at Microsoft, we have a workaround posted on GitHub as - https://github.com/Azure/Azure-Functions/issues/625#issuecomment-377566084 
+To be able to use the code successfully in Visual Studio, you **MUST** upgrade the Azure Functions and WebJobs Extension to **Version 15.0.40405.0 or higher**.
 
 ### Azure Redis Cache Configuration
 The Azure Redis Cache binding requires a connection string to the Azure Redis Cache instance to work. This can be specified inline in the function or enclosing the name of AppSettings key within the "%" signs.
